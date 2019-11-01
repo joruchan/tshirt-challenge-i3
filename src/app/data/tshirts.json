@@ -1,0 +1,204 @@
+{
+    "t-shirts": [
+        {
+            "productId": 0,
+            "price": 11,
+            "size": "XS",
+            "gender": "F",
+            "imageUrl": "https://lerageshirts.com/wp-content/uploads/2013/10/yao-ming-meme-tee-shirt-bitch-please.jpg",
+            "category": "meme"
+        },
+        {
+            "productId": 0,
+            "price": 11,
+            "size": "XS",
+            "gender": "M",
+            "imageUrl": "https://lerageshirts.com/wp-content/uploads/2013/10/yao-ming-meme-tee-shirt-bitch-please.jpg",
+            "category": "meme"
+        },
+        {
+            "productId": 0,
+            "price": 11,
+            "size": "S",
+            "gender": "F",
+            "imageUrl": "https://lerageshirts.com/wp-content/uploads/2013/10/yao-ming-meme-tee-shirt-bitch-please.jpg",
+            "category": "meme"
+        },
+        {
+            "productId": 0,
+            "price": 11,
+            "size": "M",
+            "gender": "F",
+            "imageUrl": "https://lerageshirts.com/wp-content/uploads/2013/10/yao-ming-meme-tee-shirt-bitch-please.jpg",
+            "category": "meme"
+        },
+        {
+            "productId": 0,
+            "price": 11,
+            "size": "M",
+            "gender": "M",
+            "imageUrl": "https://lerageshirts.com/wp-content/uploads/2013/10/yao-ming-meme-tee-shirt-bitch-please.jpg",
+            "category": "meme"
+        },
+        {
+            "productId": 0,
+            "price": 11,
+            "size": "L",
+            "gender": "F",
+            "imageUrl": "https://lerageshirts.com/wp-content/uploads/2013/10/yao-ming-meme-tee-shirt-bitch-please.jpg",
+            "category": "meme"
+        },
+        {
+            "productId": 0,
+            "price": 11,
+            "size": "XL",
+            "gender": "M",
+            "imageUrl": "https://lerageshirts.com/wp-content/uploads/2013/10/yao-ming-meme-tee-shirt-bitch-please.jpg",
+            "category": "meme"
+        },
+        {
+            "productId": 1,
+            "price": 13,
+            "size": "XS",
+            "gender": "F",
+            "imageUrl": "http://medritemidtownwest.com/wp-content/uploads/2019/02/t-shirt-memes-1.jpg",
+            "category": "meme"
+        },
+        {
+            "productId": 1,
+            "price": 13,
+            "size": "XS",
+            "gender": "F",
+            "imageUrl": "http://medritemidtownwest.com/wp-content/uploads/2019/02/t-shirt-memes-1.jpg",
+            "category": "meme"
+        },
+        {
+            "productId": 1,
+            "price": 13,
+            "size": "S",
+            "gender": "M",
+            "imageUrl": "http://medritemidtownwest.com/wp-content/uploads/2019/02/t-shirt-memes-1.jpg",
+            "category": "meme"
+        },
+        {
+            "productId": 1,
+            "price": 13,
+            "size": "S",
+            "gender": "M",
+            "imageUrl": "http://medritemidtownwest.com/wp-content/uploads/2019/02/t-shirt-memes-1.jpg",
+            "category": "meme"
+        },
+        {
+            "productId": 1,
+            "price": 13,
+            "size": "S",
+            "gender": "M",
+            "imageUrl": "http://medritemidtownwest.com/wp-content/uploads/2019/02/t-shirt-memes-1.jpg",
+            "category": "meme"
+        },
+        {
+            "productId": 1,
+            "price": 13,
+            "size": "S",
+            "gender": "F",
+            "imageUrl": "http://medritemidtownwest.com/wp-content/uploads/2019/02/t-shirt-memes-1.jpg",
+            "category": "meme"
+        },
+        {
+            "productId": 1,
+            "price": 13,
+            "size": "L",
+            "gender": "F",
+            "imageUrl": "http://medritemidtownwest.com/wp-content/uploads/2019/02/t-shirt-memes-1.jpg",
+            "category": "meme"
+        },
+        {
+            "productId": 1,
+            "price": 13,
+            "size": "L",
+            "gender": "M",
+            "imageUrl": "http://medritemidtownwest.com/wp-content/uploads/2019/02/t-shirt-memes-1.jpg",
+            "category": "meme"
+        },
+        {
+            "productId": 1,
+            "price": 13,
+            "size": "XL",
+            "gender": "F",
+            "imageUrl": "http://medritemidtownwest.com/wp-content/uploads/2019/02/t-shirt-memes-1.jpg",
+            "category": "meme"
+        },
+        {
+            "productId": 2,
+            "price": 9,
+            "size": "XS",
+            "gender": "F",
+            "imageUrl": "https://rsz.tzy.li/816/918/tzy/previews/images/699/467/115/original/funny-javascript-eat-sleep-code-repeat-function-tshirt.jpg",
+            "category": "geek"
+        },
+        {
+            "productId": 2,
+            "price": 9,
+            "size": "XS",
+            "gender": "F",
+            "imageUrl": "https://rsz.tzy.li/816/918/tzy/previews/images/699/467/115/original/funny-javascript-eat-sleep-code-repeat-function-tshirt.jpg",
+            "category": "geek"
+        },
+        {
+            "productId": 2,
+            "price": 9,
+            "size": "S",
+            "gender": "M",
+            "imageUrl": "https://rsz.tzy.li/816/918/tzy/previews/images/699/467/115/original/funny-javascript-eat-sleep-code-repeat-function-tshirt.jpg",
+            "category": "geek"
+        },
+        {
+            "productId": 2,
+            "price": 9,
+            "size": "S",
+            "gender": "M",
+            "imageUrl": "https://rsz.tzy.li/816/918/tzy/previews/images/699/467/115/original/funny-javascript-eat-sleep-code-repeat-function-tshirt.jpg",
+            "category": "geek"
+        },
+        {
+            "productId": 2,
+            "price": 9,
+            "size": "S",
+            "gender": "M",
+            "imageUrl": "https://rsz.tzy.li/816/918/tzy/previews/images/699/467/115/original/funny-javascript-eat-sleep-code-repeat-function-tshirt.jpg",
+            "category": "geek"
+        },
+        {
+            "productId": 2,
+            "price": 9,
+            "size": "S",
+            "gender": "F",
+            "imageUrl": "https://rsz.tzy.li/816/918/tzy/previews/images/699/467/115/original/funny-javascript-eat-sleep-code-repeat-function-tshirt.jpg",
+            "category": "geek"
+        },
+        {
+            "productId": 2,
+            "price": 9,
+            "size": "L",
+            "gender": "F",
+            "imageUrl": "https://rsz.tzy.li/816/918/tzy/previews/images/699/467/115/original/funny-javascript-eat-sleep-code-repeat-function-tshirt.jpg",
+            "category": "geek"
+        },
+        {
+            "productId": 2,
+            "price": 9,
+            "size": "L",
+            "gender": "M",
+            "imageUrl": "https://rsz.tzy.li/816/918/tzy/previews/images/699/467/115/original/funny-javascript-eat-sleep-code-repeat-function-tshirt.jpg",
+            "category": "geek"
+        },
+        {
+            "productId": 2,
+            "price": 9,
+            "size": "XL",
+            "gender": "F",
+            "imageUrl": "https://rsz.tzy.li/816/918/tzy/previews/images/699/467/115/original/funny-javascript-eat-sleep-code-repeat-function-tshirt.jpg",
+            "category": "geek"
+        }
+    ]
+}
