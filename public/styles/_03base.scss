@@ -59,13 +59,55 @@ main{
       font-size: 1rem;
       border-radius: 5px;
       border: none;
+      margin: 0 3px;
+      &:hover{
+        background: $primary-color;
+        color: $light-color;
+      }
+    }
+    #createShirt{
+      margin-top: 3rem;
     }
     div{
       margin-top: 2rem;
+      #addShirt{
+        display:block;
+        width: 100%;
+        border-top: 1px solid lightgrey;
+        padding-top: 2rem;
+      }
+      label{
+        margin-top:1rem;
+        font-weight: 400;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      #shirtImgLabel{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
       input{
+        border: none;
+        border-bottom: 1px solid lightgrey;
+        margin-left:1rem;
+      }
+      input#maxPriceInput{
         border-radius: 5px;
         max-width: 50px;
         border: 1px solid $primary-color;
+      }
+      #shirtImgUpload{
+        margin-top: 1rem;
+        width: 90%;
+      }
+      #uploadSubmit{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
       }
     }
   }
@@ -73,20 +115,28 @@ main{
     width: 70%;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items:flex-end;
     div#tShirt{
       flex-basis: 33.3333334%;
       padding: 2rem;
-
+      min-width: 200px;
       img{
         max-width: 100%;
       }
-      
       #tshirtText{
         margin-top: 2rem;
         div{
           display:flex;
           justify-content: space-around;
+          align-items: center;
+          margin-bottom:2rem;
+          p{
+            margin: 0;
+          }
+          #genderIcon{
+            margin-top: -5px;
+          }
         }
         p{
           font-family: 'Varela Round', sans-serif;
@@ -109,6 +159,57 @@ main{
           color: $primary-color;
           font-size: 1rem;
         }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  main{
+    flex-direction: column;
+    aside{
+      width: 100%;
+      font-size: 2rem;
+      text-align:center;
+      .btn-filter{
+        font-size: 2rem;
+        padding: 2rem 3rem;
+        margin-top: 1rem;
+      }
+      input{
+        width: 60%;
+        max-width: 100% !important;
+      }
+      div#createShirt{
+        display:flex;
+        flex-direction: column;
+        #uploadSubmit{
+          font-size: 2rem;
+          align-self: flex-end;
+        }
+      }
+      
+    }
+    section{
+      width: 100%;
+      div#tShirt{
+        flex-basis: 50%;
+        #tshirtText{
+          span{
+            padding: 1.5rem 2rem;
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  main{
+    section{
+      div#tShirt{
+        flex-basis: 100%;
       }
     }
   }
