@@ -25,14 +25,14 @@ const setValues = () => {
 get('http://localhost:3000/t-shirts')
   .then((response) => response.data)
   .then((tshirts) => {
-    getTshirtArray(tshirts);
+    getTshirtArray(tshirts); // Crée un array de tshirt formatté afin de pouvoir exploiter les données correctement
   })
   .then(() => {
-    createSizeButtons(tshirtDisplay);
-    createCatButtons(tshirtDisplay);
-    createTshirtDiv(tshirtDisplay);
+    createSizeButtons(tshirtDisplay); // Crée un bouton pour chaque taille disponible
+    createCatButtons(tshirtDisplay); // Crée un bouton pour chaque catégorie disponible
+    createTshirtDiv(tshirtDisplay); // Crée une div pour chaque Tshirt, no doublon (id/gender)
   })
-  .then(() => {
+  .then(() => { // Tous les events on click se trouvent ici
     $('#genderFilter > button').on('click', (e) => {
       setValues();
       currentGender = e.target.innerHTML;
@@ -74,8 +74,8 @@ get('http://localhost:3000/t-shirts')
     });
   });
 
-
-$('#uploadSubmit').on('click', (e) => {
+// Poster un nouveau t-shirt selon ce qui a été input
+$('#uploadSubmit').on('click', () => {
   if (validator.isIn($('#sizeUpload').val(), ['XXS', 'XS', 'S', 'M', 'L', 'XL', 'XXL'])
       && validator.isNumeric($('#priceUpload').val())
       && validator.isIn($('#genderUpload').val(), ['M', 'F'])
@@ -96,3 +96,21 @@ $('#uploadSubmit').on('click', (e) => {
     alert('Please enter a correct URL, a size between XXS and XXL, a correct gender (F or M) and a correct price');
   }
 });
+
+// Filtrer par prix : ne marche que sur l'ensemble, flemme de faire en sorte que cela reprenne les filtres précédents
+$('#filterByPrice').on('click', () => {
+  tshirtDisplay.sort((a, b) => a.price - b.price);
+  $('section').empty();
+  createTshirtDiv(tshirtDisplay);
+});
+
+// Filtrer par taille ::: Ne fonctionne pas - trop fatiguée pour trouver la solution 😩
+
+// $('#filterBySize').on('click', () => {
+//   const sizesAvailable = ['XXS', 'XS', 'S', 'M', 'L', 'XL', 'XXL'];
+//   tshirtDisplay.forEach((tee) => {
+//     tee.size = tee.size.reduce((a, b) => a.concat(b), []).join(',').split(',').reduce((a, b) => max(sizesAvailable[sizesAvailable.indexOf(a)], sizesAvailable[sizesAvailable.indexOf(b)]));
+//   });
+//   $('section').empty();
+//   createTshirtDiv(tshirtDisplay);
+// });

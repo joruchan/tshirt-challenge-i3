@@ -116,11 +116,15 @@ main{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items:flex-end;
     div#tShirt{
       flex-basis: 33.3333334%;
       padding: 2rem;
       min-width: 200px;
+      min-height: 430px;
+      height: 430px;
+      display:flex;
+      flex-direction:column;
+      justify-content: flex-end;
       img{
         max-width: 100%;
       }

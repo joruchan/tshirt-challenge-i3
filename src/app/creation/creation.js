@@ -16,12 +16,11 @@ export const getTshirtArray = function (tshirts) {
   for (const tshirt of maleShirts) {
     tshirt.size = [tshirt.size];
     if (find(propEq('productId', tshirt.productId))(tshirtDisplayMale)) {
-      tshirtDisplayMale[tshirt.productId].size += ` ${tshirt.size}`;
+      tshirtDisplayMale[tshirt.productId].size += ` ${tshirt.size}`; // Ca c'est un peu de la bidouille, c'est optimisable
     } else {
       tshirtDisplayMale.push(tshirt);
     }
   }
-
   for (const tshirt of femaleShirts) {
     tshirt.size = [tshirt.size];
     if (find(propEq('productId', tshirt.productId))(tshirtDisplayFemale)) {
@@ -43,7 +42,6 @@ export const createTshirtDiv = function (arrayofShirts) {
     const { gender } = tee;
     const uniqueSizes = uniq(tee.size);
     const sizesDisplay = uniqueSizes.map((e) => ((e !== 'any') ? `<span>${e}</span>` : '')).join('');
-
     const genderIconUrl = (gender === 'F') ? 'public/assets/images/female.png' : 'public/assets/images/male.png';
     const divTee = $(`
 		<div id="tShirt">
